@@ -118,7 +118,7 @@ export const MonthStatsTable = () => {
           <button
             className={css.paginationBtn}
             onClick={setNextMonth}
-            disabled={disableNextMonthButton}
+            // disabled={disableNextMonthButton}
           >
             <HiOutlineChevronRight />
           </button>
